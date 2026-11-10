@@ -1,0 +1,38 @@
+{
+  "source": "synthetic speech from ffmpeg flite; not a human microphone test",
+  "checks": [
+    {
+      "phrase": "move forward",
+      "recognized": "move forward",
+      "confidence": 1.0,
+      "intent": "forward",
+      "expected": "forward",
+      "passed": true
+    },
+    {
+      "phrase": "come here",
+      "recognized": "come here",
+      "confidence": 1.0,
+      "intent": "come",
+      "expected": "come",
+      "passed": true
+    },
+    {
+      "phrase": "stop",
+      "recognized": "stop",
+      "confidence": 1.0,
+      "intent": "stop",
+      "expected": "stop",
+      "passed": true
+    },
+    {
+      "phrase": "do not move forward",
+      "recognized": "do not new forward",
+      "confidence": 0.705034,
+      "intent": null,
+      "expected": null,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

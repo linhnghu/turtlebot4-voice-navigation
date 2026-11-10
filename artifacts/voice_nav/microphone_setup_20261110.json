@@ -1,0 +1,11 @@
+{
+  "input_source": "alsa_input.pci-0000_05_00.6.analog-stereo",
+  "active_port": "analog-input-internal-mic",
+  "internal_mic_boost_db": 0,
+  "alsa_capture": 54,
+  "alsa_capture_db": 23.25,
+  "captured_rms": 224.0277245860877,
+  "captured_peak": 701,
+  "clipped_fraction": 0.0,
+  "human_commands_tested": false
+}

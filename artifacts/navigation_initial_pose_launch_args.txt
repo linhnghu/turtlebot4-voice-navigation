@@ -1,0 +1,53 @@
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'mode':
+        One of: ['simulation', 'mapping', 'localization', 'navigation']
+        (default: 'mapping')
+
+    'world':
+        One of: ['depot', 'maze', 'warehouse']
+        (default: 'maze')
+
+    'model':
+        One of: ['standard', 'lite']
+        (default: 'lite')
+
+    'rviz':
+        One of: ['true', 'false']
+        (default: 'true')
+
+    'map':
+        no description given
+        (default: '/home/linh/ros2_ws/maps/map.yaml')
+
+    'auto_initial_pose':
+        Initialize AMCL at a known pose on the simulation map. Valid choices are: ['true', 'false']
+        (default: 'true')
+
+    'initial_x':
+        Initial x in map (m)
+        (default: '0.0')
+
+    'initial_y':
+        Initial y in map (m)
+        (default: '0.0')
+
+    'initial_yaw':
+        Initial yaw in map (rad)
+        (default: '0.0')
+
+    'x':
+        no description given
+        (default: '0.0')
+
+    'y':
+        no description given
+        (default: '0.0')
+
+    'z':
+        no description given
+        (default: '0.0')
+
+    'yaw':
+        no description given
+        (default: '0.0')

@@ -1,0 +1,82 @@
+version: 1
+frame_id: map
+map_yaml: /home/linh/ros2_ws/maps/map.yaml
+map_sha256: 5daef4cc0e7e4a0cf79866c50454d619eb296ec804d2b05e8f2b8a43cadc916e
+method: seeded_geodesic_voronoi_4_connected
+labels: labels.npy
+overlay: regions.png
+minimum_clearance_m: 0.3
+unassigned_free_cells: 98
+regions:
+- id: A
+  name: Phòng học
+  aliases:
+  - khu vực a
+  - khu a
+  - a
+  - phòng học
+  seed:
+  - -3.0
+  - 0.0
+  yaw: 1.57079632679
+  color:
+  - 66
+  - 153
+  - 225
+  goal:
+    x: -3.0
+    y: 0.0
+    yaw: 1.57079632679
+  label: 1
+  area_m2: 126.883
+  clearance_m: 1.31
+- id: B
+  name: Phòng thí nghiệm
+  aliases:
+  - khu vực b
+  - khu vực bê
+  - khu b
+  - khu bê
+  - b
+  - bê
+  - phòng thí nghiệm
+  seed:
+  - -3.0
+  - 4.0
+  yaw: 0.0
+  color:
+  - 72
+  - 187
+  - 120
+  goal:
+    x: -3.0
+    y: 4.0
+    yaw: 0.0
+  label: 2
+  area_m2: 62.18
+  clearance_m: 1.965
+- id: C
+  name: Hành lang
+  aliases:
+  - khu vực c
+  - khu vực xê
+  - khu c
+  - khu xê
+  - c
+  - xê
+  - hành lang
+  seed:
+  - 2.0
+  - 0.0
+  yaw: 0.0
+  color:
+  - 237
+  - 137
+  - 54
+  goal:
+    x: 2.0
+    y: 0.0
+    yaw: 0.0
+  label: 3
+  area_m2: 89.655
+  clearance_m: 0.965

@@ -1,0 +1,61 @@
+{
+  "input": "synthetic ROS gesture labels; real Gazebo sensor feedback",
+  "confirmation": "one Thumb_Up, then No_Hand frames until completion",
+  "checks": [
+    {
+      "gesture": "Wave",
+      "completed": true,
+      "start": [
+        -1.1641639114043537e-11,
+        -3.55173208768582e-22,
+        6.095040205540639e-11
+      ],
+      "end": [
+        -1.0611239402183097e-11,
+        -2.5256820538209942e-15,
+        0.0025602750271944393
+      ]
+    },
+    {
+      "gesture": "Pointing_Up",
+      "completed": true,
+      "start": [
+        -1.055246449177334e-11,
+        -2.114339175164585e-15,
+        0.0270000000275815
+      ],
+      "end": [
+        -0.0038817846648782164,
+        -0.0001048336613264868,
+        0.027000000026212154
+      ]
+    },
+    {
+      "gesture": "Victory",
+      "completed": true,
+      "start": [
+        -0.011084858351114286,
+        -0.0002993639242177921,
+        0.027000000035612946
+      ],
+      "end": [
+        -0.01541611121665484,
+        -0.00048033339252985833,
+        0.03033763645616159
+      ]
+    },
+    {
+      "stop": "Open_Palm",
+      "stopped": true
+    },
+    {
+      "stop": "Closed_Fist",
+      "stopped": true
+    },
+    {
+      "stop": "signal_timeout",
+      "stopped": true
+    }
+  ],
+  "passed": true
+}

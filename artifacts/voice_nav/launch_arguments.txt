@@ -1,0 +1,69 @@
+Arguments (pass arguments as '<name>:=<value>'):
+
+    'map':
+        no description given
+        (default: '/home/linh/ros2_ws/maps/map.yaml')
+
+    'seeds':
+        no description given
+        (default: '/home/linh/ros2_ws/install/turtlebot4_voice_nav/share/turtlebot4_voice_nav/config/seeds.yaml')
+
+    'output_dir':
+        no description given
+        (default: '/home/linh/ros2_ws/artifacts/voice_nav')
+
+    'clearance':
+        no description given
+        (default: '0.30')
+
+    'goal_timeout':
+        no description given
+        (default: '240.0')
+
+    'speech_python':
+        no description given
+        (default: '/home/linh/ros2_ws/.venv-voice-nav/bin/python')
+
+    'model_path':
+        no description given
+        (default: '/home/linh/ros2_ws/.models/hri/vosk-model-small-vn-0.4')
+
+    'device':
+        no description given
+        (default: '-1')
+
+    'backend':
+        no description given
+        (default: 'whisper')
+
+    'whisper_path':
+        no description given
+        (default: '/home/linh/ros2_ws/.models/faster-whisper-small')
+
+    'energy_threshold':
+        no description given
+        (default: '300.0')
+
+    'simulation':
+        One of: ['true', 'false']
+        (default: 'true')
+
+    'gazebo_gui':
+        One of: ['true', 'false']
+        (default: 'true')
+
+    'rviz':
+        One of: ['true', 'false']
+        (default: 'true')
+
+    'dashboard':
+        One of: ['true', 'false']
+        (default: 'true')
+
+    'voice':
+        One of: ['true', 'false']
+        (default: 'true')
+
+    'use_sim_time':
+        One of: ['true', 'false']
+        (default: 'true')

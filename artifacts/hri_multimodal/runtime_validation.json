@@ -1,0 +1,327 @@
+{
+  "domain": 67,
+  "completed": true,
+  "checks": [
+    {
+      "name": "startup_idle",
+      "passed": true,
+      "state": {
+        "action": "idle",
+        "reason": "no_reliable_input",
+        "behavior": "idle",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "",
+        "gesture": ""
+      },
+      "pose": [
+        1.2,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "agreement_moves_robot",
+      "passed": true,
+      "state": {
+        "action": "forward",
+        "reason": "agreement",
+        "behavior": "forward",
+        "latched": false,
+        "linear": 0.65,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "pose": [
+        1.7848942443499716,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "open_palm_priority_low_confidence",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "stop_priority",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Move forward",
+        "gesture": "Open Palm"
+      },
+      "pose": [
+        1.7848942443499716,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "stop_latch_blocks_motion",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "stop_priority",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "pose": [
+        1.7848942443499716,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "reset_discards_old_command",
+      "passed": true,
+      "state": {
+        "action": "idle",
+        "reason": "no_reliable_input",
+        "behavior": "idle",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "",
+        "gesture": ""
+      },
+      "pose": [
+        1.7848942443499716,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "voice_only",
+      "passed": true,
+      "state": {
+        "action": "forward",
+        "reason": "voice_only",
+        "behavior": "forward",
+        "latched": false,
+        "linear": 0.65,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Move forward",
+        "gesture": ""
+      },
+      "pose": [
+        1.915139087000023,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "gesture_only",
+      "passed": true,
+      "state": {
+        "action": "forward",
+        "reason": "gesture_only",
+        "behavior": "forward",
+        "latched": false,
+        "linear": 0.65,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "",
+        "gesture": "Thumb Up"
+      },
+      "pose": [
+        2.04489701529999,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "input_timeout",
+      "passed": true,
+      "state": {
+        "action": "idle",
+        "reason": "no_reliable_input",
+        "behavior": "idle",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "",
+        "gesture": ""
+      },
+      "pose": [
+        3.8650641322500876,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "conflict_latches_stop",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "conflict",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Move forward",
+        "gesture": "Wave"
+      },
+      "pose": [
+        3.8650641322500876,
+        1.2,
+        0.0
+      ]
+    },
+    {
+      "name": "come_agreement",
+      "passed": true,
+      "state": {
+        "action": "come",
+        "reason": "agreement",
+        "behavior": "come",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 1.8,
+        "camera": "disabled",
+        "voice": "Come here",
+        "gesture": "Wave"
+      },
+      "pose": [
+        3.8650641322500876,
+        1.2,
+        0.39591379259986753
+      ]
+    },
+    {
+      "name": "come_arrives_at_person",
+      "passed": true,
+      "state": {
+        "action": "come",
+        "reason": "agreement",
+        "behavior": "arrived",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Come here",
+        "gesture": "Wave"
+      },
+      "pose": [
+        2.2307800696766087,
+        3.6870220960144917,
+        2.2061556609717905
+      ]
+    },
+    {
+      "name": "voice_stop_priority",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "stop_priority",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Stop",
+        "gesture": "Thumb Up"
+      },
+      "pose": [
+        2.2307800696766087,
+        3.6870220960144917,
+        2.2061556609717905
+      ]
+    },
+    {
+      "name": "low_confidence_idle",
+      "passed": true,
+      "state": {
+        "action": "idle",
+        "reason": "no_reliable_input",
+        "behavior": "idle",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "pose": [
+        2.2307800696766087,
+        3.6870220960144917,
+        2.2061556609717905
+      ]
+    },
+    {
+      "name": "unknown_sentence_idle",
+      "passed": true,
+      "state": {
+        "action": "idle",
+        "reason": "no_reliable_input",
+        "behavior": "idle",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "do not move forward",
+        "gesture": ""
+      },
+      "pose": [
+        2.2307800696766087,
+        3.6870220960144917,
+        2.2061556609717905
+      ]
+    },
+    {
+      "name": "malformed_input_latches_stop",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "invalid_json",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "do not move forward",
+        "gesture": ""
+      },
+      "pose": [
+        2.2307800696766087,
+        3.6870220960144917,
+        2.2061556609717905
+      ]
+    },
+    {
+      "name": "controller_loss_simulator_watchdog",
+      "passed": true,
+      "state": {
+        "action": "forward",
+        "reason": "agreement",
+        "behavior": "forward",
+        "latched": false,
+        "linear": 0.65,
+        "angular": 0.0,
+        "camera": "disabled",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "pose": [
+        2.0455772221446704,
+        3.9381938444906996,
+        2.2061556609717905
+      ]
+    }
+  ],
+  "passed": true
+}

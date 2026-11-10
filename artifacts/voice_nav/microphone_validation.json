@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "human_commands_tested": false,
+  "device": "default",
+  "samplerate": 44100,
+  "frames": 44100,
+  "duration_seconds": 1,
+  "rms": 25946.297972046374
+}

@@ -1,0 +1,26 @@
+{
+  "source": "/home/linh/ros2_ws/artifacts/gesture_runs/20261027_075814/webcam_gestures.mp4",
+  "frames": 967,
+  "raw_counts": {
+    "None": 110,
+    "Pointing_Up": 25,
+    "Thumb_Up": 14,
+    "Open_Palm": 139,
+    "Victory": 6
+  },
+  "replay_counts": {
+    "No hand": 691,
+    "Unknown": 137,
+    "Thumb pending": 6,
+    "Thumb Up": 2,
+    "Multiple hands": 16,
+    "Palm pending": 70,
+    "Open Palm": 45
+  },
+  "translated_palm_counts": {
+    "Palm pending": 25,
+    "Wave": 13
+  },
+  "limitation": "Recorded webcam inference; Wave uses translated real palm image, not live human waving.",
+  "passed": true
+}

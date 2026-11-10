@@ -1,0 +1,4 @@
+# NumPy 1.x preserves compatibility with the Ubuntu Humble cv_bridge ABI.
+numpy==1.26.4
+opencv-python==4.11.0.86
+ultralytics==8.3.203

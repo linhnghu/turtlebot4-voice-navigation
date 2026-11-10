@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "input": "google_tts_wav_not_human_microphone",
+  "checks": [
+    {
+      "region": "A",
+      "transcript": {
+        "text": "Đi đến phòng học.",
+        "confidence": 0.7469701650407998,
+        "captured_at": 1794141042.36511,
+        "source": "wav",
+        "backend": "whisper"
+      },
+      "result": {
+        "state": "SUCCEEDED",
+        "message": "Đã đến đúng các khu vực yêu cầu.",
+        "busy": false,
+        "route": [],
+        "completed": [
+          "A"
+        ],
+        "wall_time": 1794141171.8312426
+      },
+      "waypoint": {
+        "state": "WAYPOINT_SUCCEEDED",
+        "message": "Đã đến khu vực A.",
+        "busy": true,
+        "route": [],
+        "completed": [
+          "A"
+        ],
+        "wall_time": 1794141171.830335,
+        "action_status": 4,
+        "xy": [
+          -2.810080335400672,
+          -0.06671036149974513
+        ]
+      }
+    },
+    {
+      "region": "B",
+      "transcript": {
+        "text": "Đi đến phòng thí nghiệm.",
+        "confidence": 0.82635491838519,
+        "captured_at": 1794141179.6845515,
+        "source": "wav",
+        "backend": "whisper"
+      },
+      "result": {
+        "state": "SUCCEEDED",
+        "message": "Đã đến đúng các khu vực yêu cầu.",
+        "busy": false,
+        "route": [],
+        "completed": [
+          "B"
+        ],
+        "wall_time": 1794141215.0501232
+      },
+      "waypoint": {
+        "state": "WAYPOINT_SUCCEEDED",
+        "message": "Đã đến khu vực B.",
+        "busy": true,
+        "route": [],
+        "completed": [
+          "B"
+        ],
+        "wall_time": 1794141215.0490186,
+        "action_status": 4,
+        "xy": [
+          -2.8853930779923425,
+          3.7939993111055665
+        ]
+      }
+    },
+    {
+      "region": "C",
+      "transcript": {
+        "text": "Đi đến Hành lang.",
+        "confidence": 0.7801895667101256,
+        "captured_at": 1794141222.807422,
+        "source": "wav",
+        "backend": "whisper"
+      },
+      "result": {
+        "state": "SUCCEEDED",
+        "message": "Đã đến đúng các khu vực yêu cầu.",
+        "busy": false,
+        "route": [],
+        "completed": [
+          "C"
+        ],
+        "wall_time": 1794141273.873051
+      },
+      "waypoint": {
+        "state": "WAYPOINT_SUCCEEDED",
+        "message": "Đã đến khu vực C.",
+        "busy": true,
+        "route": [],
+        "completed": [
+          "C"
+        ],
+        "wall_time": 1794141273.8721666,
+        "action_status": 4,
+        "xy": [
+          1.776781170967349,
+          0.10636091892706115
+        ]
+      }
+    }
+  ]
+}

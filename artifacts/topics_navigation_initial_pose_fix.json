@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "duration_wall_s": 10.0,
+  "messages": {
+    "scan": 183,
+    "odom": 189,
+    "clock": 970,
+    "map": 1
+  },
+  "finite_lidar_ranges": 640,
+  "lidar_ranges_above_minimum": 640,
+  "cmd_vel_twist_subscribers": 1,
+  "transforms": {
+    "odom_to_base_link": true,
+    "map_to_base_link": true
+  },
+  "map_known_cells": 118571,
+  "odom_xy": [
+    -3.876336746185789e-12,
+    -5.565071654521588e-24
+  ]
+}

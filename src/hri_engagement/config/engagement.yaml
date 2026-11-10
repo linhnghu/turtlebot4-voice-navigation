@@ -1,0 +1,14 @@
+engagement_controller:
+  ros__parameters:
+    window: 0.6
+    head_hold: 0.4
+    hand_hold: 0.3
+    stable_ratio: 0.75
+    min_frames: 4
+    camera_timeout: 0.7
+    cue_ttl: 2.5
+    attention_timeout: 3.0
+    disengage_timeout: 1.5
+    cooldown: 5.0
+    speech_confidence: 0.65
+    greeting: "Xin chào! Tôi có thể giúp gì cho bạn?"

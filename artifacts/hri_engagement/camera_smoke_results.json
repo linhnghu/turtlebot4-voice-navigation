@@ -1,0 +1,12 @@
+{
+  "source": "physical webcam smoke test",
+  "healthy_frames": 181,
+  "frames_with_one_face": 99,
+  "frames_facing_robot": 63,
+  "frames_raised_hand": 0,
+  "responses": 0,
+  "video_frames": 181,
+  "observed_duration_s": 11.96,
+  "video_readable": true,
+  "note": "Unscripted camera smoke only; not 15 labelled human trials"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "yolo11n.pt",
+  "camera_topic": "/oakd/rgb/preview/image_raw",
+  "processed_frames": 217,
+  "frames_with_detections": 62,
+  "class_counts": {
+    "traffic light": 3,
+    "person": 60
+  },
+  "max_confidence": {
+    "traffic light": 0.48822343349456787,
+    "person": 0.925987720489502
+  },
+  "last_inference_seconds": 0.071
+}

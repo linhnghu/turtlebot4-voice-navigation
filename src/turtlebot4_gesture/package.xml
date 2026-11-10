@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtlebot4_gesture</name>
+  <version>0.1.0</version>
+  <description>Webcam gesture interaction with confirmation and fail-safe TurtleBot 4 motion.</description>
+  <maintainer email="linh@example.com">Linh</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>irobot_create_msgs</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>ign_ros2_control</exec_depend>
+  <exec_depend>turtlebot4_ignition_bringup</exec_depend>
+  <exec_depend>irobot_create_ignition_bringup</exec_depend>
+  <exec_depend>irobot_create_common_bringup</exec_depend>
+  <exec_depend>turtlebot4_description</exec_depend>
+  <exec_depend>irobot_create_description</exec_depend>
+  <exec_depend>turtlebot4_ignition_gui_plugins</exec_depend>
+  <exec_depend>irobot_create_ignition_plugins</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

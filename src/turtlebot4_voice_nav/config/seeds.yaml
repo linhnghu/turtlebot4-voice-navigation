@@ -1,0 +1,20 @@
+# Functional names assigned by the operator, not room types inferred from pixels.
+regions:
+  - id: A
+    name: Phòng học
+    aliases: [khu vực a, khu a, a, phòng học]
+    seed: [-3.0, 0.0]
+    yaw: 1.57079632679
+    color: [66, 153, 225]
+  - id: B
+    name: Phòng thí nghiệm
+    aliases: [khu vực b, khu vực bê, khu b, khu bê, b, bê, phòng thí nghiệm]
+    seed: [-3.0, 4.0]
+    yaw: 0.0
+    color: [72, 187, 120]
+  - id: C
+    name: Hành lang
+    aliases: [khu vực c, khu vực xê, khu c, khu xê, c, xê, hành lang]
+    seed: [2.0, 0.0]
+    yaw: 0.0
+    color: [237, 137, 54]

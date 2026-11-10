@@ -1,0 +1,4 @@
+# Separate from YOLO; retain the NumPy 1.x ABI required by ROS 2 Humble.
+numpy==1.26.4
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86

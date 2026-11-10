@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "source": "automated mouse/text simulation rendered in Qt and resolved over ROS",
+  "target_events": 2,
+  "clarification_events": 2,
+  "reasons": [
+    "scene_unavailable",
+    "ready",
+    "speech_and_pointing_agree",
+    "ambiguous_pointing",
+    "speech_pointing_conflict",
+    "explicit_confirmation"
+  ],
+  "video_frames": 181,
+  "video": "artifacts/hri_object_reference/demo_check_20261030_180039/20261030_180041_067181/demo.mp4",
+  "evidence_dir": "artifacts/hri_object_reference/demo_check_20261030_180039/20261030_180041_067181"
+}

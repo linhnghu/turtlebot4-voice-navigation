@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "method": "run_teleop.bash in PTY, 12 i keypresses, k then Ctrl+C",
+  "undock_status": "SUCCEEDED",
+  "gazebo_before_xy": [
+    -0.3530764532045983,
+    -1.8019826816144653e-06
+  ],
+  "gazebo_after_xy": [
+    -0.7022696166377358,
+    0.0021660126155206025
+  ],
+  "distance_m": 0.34919989233757515,
+  "mapping_running": true
+}

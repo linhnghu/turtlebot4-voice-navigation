@@ -1,0 +1,384 @@
+{
+  "source": "Gazebo Fortress physics; injected gesture labels and camera health",
+  "completed": true,
+  "passed": true,
+  "checks": [
+    {
+      "name": "gazebo_spawn_matches_odometry",
+      "passed": true,
+      "state": {
+        "action": "idle",
+        "reason": "no_reliable_input",
+        "behavior": "idle",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "",
+        "gesture": ""
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.2,
+          1.2
+        ]
+      },
+      "odom_pose": [
+        1.2,
+        1.2
+      ]
+    },
+    {
+      "name": "agreement_moves_physical_model",
+      "passed": true,
+      "state": {
+        "action": "forward",
+        "reason": "agreement",
+        "behavior": "forward",
+        "latched": false,
+        "linear": 0.35,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.5946346616324836,
+          1.2000000000000395
+        ]
+      },
+      "odom_pose": [
+        1.6094999999904755,
+        1.2
+      ]
+    },
+    {
+      "name": "odometry_matches_physics_after_motion",
+      "passed": true,
+      "state": {
+        "action": "forward",
+        "reason": "agreement",
+        "behavior": "forward",
+        "latched": false,
+        "linear": 0.35,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.5946346616324836,
+          1.2000000000000395
+        ]
+      },
+      "odom_pose": [
+        1.6094999999904755,
+        1.2
+      ]
+    },
+    {
+      "name": "palm_pending_inhibits_voice_motion",
+      "passed": true,
+      "state": {
+        "action": "forward",
+        "reason": "agreement",
+        "behavior": "checking_gesture",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "Palm pending",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.619999652998755,
+          1.2000000000000506
+        ]
+      },
+      "odom_pose": [
+        1.6199999999999992,
+        1.2
+      ]
+    },
+    {
+      "name": "open_palm_stops_physical_model",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "stop_priority",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "Open Palm",
+        "voice": "Move forward",
+        "gesture": "Open Palm"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.619999652999304,
+          1.2000000000000588
+        ]
+      },
+      "odom_pose": [
+        1.6199999999999992,
+        1.2
+      ]
+    },
+    {
+      "name": "reset_rejected_while_palm_visible",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "stop_priority",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "Open Palm",
+        "voice": "Move forward",
+        "gesture": "Open Palm"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.619999652999304,
+          1.2000000000000588
+        ]
+      },
+      "odom_pose": [
+        1.6199999999999992,
+        1.2
+      ]
+    },
+    {
+      "name": "stop_remains_latched",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "stop_priority",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.619999652999304,
+          1.2000000000000588
+        ]
+      },
+      "odom_pose": [
+        1.6199999999999992,
+        1.2
+      ]
+    },
+    {
+      "name": "reset_clears_old_motion",
+      "passed": true,
+      "state": {
+        "action": "idle",
+        "reason": "no_reliable_input",
+        "behavior": "idle",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "",
+        "gesture": ""
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.619999652999304,
+          1.2000000000000588
+        ]
+      },
+      "odom_pose": [
+        1.6199999999999992,
+        1.2
+      ]
+    },
+    {
+      "name": "come_here_arrives_in_gazebo",
+      "passed": true,
+      "state": {
+        "action": "come",
+        "reason": "agreement",
+        "behavior": "arrived",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "Come here",
+        "gesture": "Wave"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.7205802697493648,
+          3.640241724788443
+        ]
+      },
+      "odom_pose": [
+        1.9586501286219071,
+        3.6214550286932283
+      ]
+    },
+    {
+      "name": "caller_marker_matches_target",
+      "passed": true,
+      "state": {
+        "action": "come",
+        "reason": "agreement",
+        "behavior": "arrived",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "Come here",
+        "gesture": "Wave"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.7205802697493648,
+          3.640241724788443
+        ]
+      },
+      "odom_pose": [
+        1.9586501286219071,
+        3.6214550286932283
+      ]
+    },
+    {
+      "name": "conflict_stops_in_gazebo",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "conflict",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "Move forward",
+        "gesture": "Wave"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.7205802697493648,
+          3.640241724788443
+        ]
+      },
+      "odom_pose": [
+        1.9586501286219071,
+        3.6214550286932283
+      ]
+    },
+    {
+      "name": "camera_timeout_stops_physical_model",
+      "passed": true,
+      "state": {
+        "action": "stop",
+        "reason": "camera_lost",
+        "behavior": "stop",
+        "latched": true,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "Move forward",
+        "gesture": "Thumb Up"
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.7232517275165256,
+          3.918722684013122
+        ]
+      },
+      "odom_pose": [
+        1.9889026919076576,
+        3.8984076282741373
+      ]
+    },
+    {
+      "name": "camera_recovery_requires_reset_and_new_input",
+      "passed": true,
+      "state": {
+        "action": "idle",
+        "reason": "no_reliable_input",
+        "behavior": "idle",
+        "latched": false,
+        "linear": 0.0,
+        "angular": 0.0,
+        "camera": "No hand",
+        "voice": "",
+        "gesture": ""
+      },
+      "world": {
+        "caller": [
+          2.0,
+          4.0
+        ],
+        "hri_robot": [
+          1.723251727516548,
+          3.9187226840133254
+        ]
+      },
+      "odom_pose": [
+        1.9889026919076576,
+        3.8984076282741373
+      ]
+    }
+  ]
+}

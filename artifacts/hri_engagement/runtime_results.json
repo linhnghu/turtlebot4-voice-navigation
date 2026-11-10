@@ -1,0 +1,64 @@
+{
+  "source": "synthetic ROS observations",
+  "results": [
+    {
+      "case": "head_only",
+      "state": "ATTENTION",
+      "greetings": 0,
+      "passed": true
+    },
+    {
+      "case": "head_hand",
+      "state": "ENGAGED",
+      "greetings": 1,
+      "passed": true
+    },
+    {
+      "case": "no_repeated_greeting",
+      "state": "ENGAGED",
+      "greetings": 1,
+      "passed": true
+    },
+    {
+      "case": "camera_timeout",
+      "state": "IDLE",
+      "greetings": 1,
+      "passed": true
+    },
+    {
+      "case": "head_speech",
+      "state": "ENGAGED",
+      "greetings": 1,
+      "passed": true
+    },
+    {
+      "case": "passerby_no_cues",
+      "state": "IDLE",
+      "greetings": 0,
+      "passed": true
+    },
+    {
+      "case": "speech_without_facing",
+      "state": "ATTENTION",
+      "greetings": 0,
+      "passed": true
+    },
+    {
+      "case": "unrelated_speech",
+      "state": "ATTENTION",
+      "greetings": 0,
+      "passed": true
+    },
+    {
+      "case": "invalid_vision",
+      "state": "IDLE",
+      "greetings": 0,
+      "passed": true
+    },
+    {
+      "case": "labelled_trial_recorder",
+      "passed": true
+    }
+  ],
+  "note": "Validates DDS, launch, FSM and greeting events; not perception accuracy"
+}

@@ -1,0 +1,6 @@
+# Coordinates in map, yaw in radians. Surveyed free cells in the saved maze map.
+frame_id: map
+goals:
+  - {name: Goal 1, x: -3.0, y: 0.0, yaw: 1.57079632679}
+  - {name: Goal 2, x: -3.0, y: 4.0, yaw: 0.0}
+  - {name: Goal 3, x: 2.0, y: 0.0, yaw: 0.0}

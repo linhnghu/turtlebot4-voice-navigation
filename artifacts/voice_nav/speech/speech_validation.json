@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "input": "wav_not_microphone",
+  "fixture_engine": "existing",
+  "backend": "whisper",
+  "grammar": "open_vocabulary",
+  "checks": [
+    {
+      "original": "Đi đến phòng học",
+      "transcript": "Đi đến phòng học.",
+      "confidence": 0.7770476715788862,
+      "expected": [
+        "A"
+      ],
+      "route": [
+        "A"
+      ],
+      "error": null,
+      "wav": "artifacts/voice_nav/speech/command_1.wav",
+      "passed": true
+    },
+    {
+      "original": "Đi đến phòng thí nghiệm",
+      "transcript": "Đi đến phòng thí nghiệm.",
+      "confidence": 0.840790175081333,
+      "expected": [
+        "B"
+      ],
+      "route": [
+        "B"
+      ],
+      "error": null,
+      "wav": "artifacts/voice_nav/speech/command_2.wav",
+      "passed": true
+    },
+    {
+      "original": "Đi đến hành lang",
+      "transcript": "Đi đến hành lang.",
+      "confidence": 0.7791880488574721,
+      "expected": [
+        "C"
+      ],
+      "route": [
+        "C"
+      ],
+      "error": null,
+      "wav": "artifacts/voice_nav/speech/command_3.wav",
+      "passed": true
+    }
+  ]
+}

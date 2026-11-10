@@ -1,0 +1,7 @@
+reference_controller:
+  ros__parameters:
+    cue_ttl: 3.0
+    scene_ttl: 1.0
+    confirmation_ttl: 15.0
+    cone_degrees: 12.0
+    ambiguity_degrees: 8.0

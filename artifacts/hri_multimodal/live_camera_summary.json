@@ -1,0 +1,15 @@
+{
+  "source": "Physical webcam /dev/video0 through MediaPipe during interactive Gazebo session",
+  "frames": 10458,
+  "elapsed": 532.223,
+  "labels": {
+    "No hand": 3293,
+    "Unknown": 6809,
+    "Multiple hands": 271,
+    "Thumb pending": 5,
+    "Palm pending": 43,
+    "Open Palm": 37
+  },
+  "healthy_frames": 10458,
+  "limitation": "Observed labels are actual camera output; no claim that all three gestures were demonstrated live."
+}

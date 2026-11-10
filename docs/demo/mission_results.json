@@ -1,0 +1,75 @@
+{
+  "started": "2026-10-18T01:55:33.022045+00:00",
+  "goals_file": "/home/linh/ros2_ws/install/turtlebot4_vision_nav/share/turtlebot4_vision_nav/config/goals.yaml",
+  "frame_id": "map",
+  "goals": [
+    {
+      "goal": 1,
+      "target": {
+        "name": "Goal 1",
+        "x": -3.0,
+        "y": 0.0,
+        "yaw": 1.57079632679
+      },
+      "status": 4,
+      "result": "SUCCEEDED",
+      "wall_seconds": 41.66,
+      "localized_xy": [
+        -2.8053090830266587,
+        0.08526962053785857
+      ],
+      "gazebo_xy": [
+        -2.753905797418114,
+        0.05097664457956588
+      ],
+      "goal_error_gazebo_m": 0.2513184729322654
+    },
+    {
+      "goal": 2,
+      "target": {
+        "name": "Goal 2",
+        "x": -3.0,
+        "y": 4.0,
+        "yaw": 0.0
+      },
+      "status": 4,
+      "result": "SUCCEEDED",
+      "wall_seconds": 61.51,
+      "localized_xy": [
+        -2.9157639292940263,
+        3.8095042314847265
+      ],
+      "gazebo_xy": [
+        -2.9101994189353158,
+        3.8078819621460265
+      ],
+      "goal_error_gazebo_m": 0.21206952828828504
+    },
+    {
+      "goal": 3,
+      "target": {
+        "name": "Goal 3",
+        "x": 2.0,
+        "y": 0.0,
+        "yaw": 0.0
+      },
+      "status": 4,
+      "result": "SUCCEEDED",
+      "wall_seconds": 93.52,
+      "localized_xy": [
+        1.7849910231222323,
+        0.09637438965115186
+      ],
+      "gazebo_xy": [
+        1.8598208785197257,
+        0.10920233152251514
+      ],
+      "goal_error_gazebo_m": 0.17769449994002295
+    }
+  ],
+  "navigation_interface": "/navigate_to_pose",
+  "manual_velocity_commands": false,
+  "bumper_detections": 0,
+  "passed": true,
+  "finished": "2026-10-18T01:59:34.631591+00:00"
+}

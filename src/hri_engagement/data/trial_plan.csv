@@ -1,0 +1,16 @@
+trial,scenario,expected_engaged,instruction
+1,look_only,0,Look at robot without waving or speaking
+2,look_only,0,Look at robot without waving or speaking
+3,look_only,0,Look at robot without waving or speaking
+4,head_hand,1,Face robot and raise an open hand
+5,head_hand,1,Face robot and raise an open hand
+6,head_hand,1,Face robot and raise an open hand
+7,head_speech,1,Face robot and say or type Hello robot
+8,head_speech,1,Face robot and say or type Excuse me
+9,head_speech,1,Face robot and say or type Xin chao robot
+10,passerby,0,Walk past without looking at robot
+11,passerby,0,Walk past with a brief glance
+12,passerby,0,Walk past without looking at robot
+13,head_hand_speech,1,Face robot raise open hand and say Hello robot
+14,speech_without_facing,0,Say Hello robot while facing away
+15,look_only,0,Look at robot without waving or speaking
